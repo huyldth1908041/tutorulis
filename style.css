@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.banner {
+    margin: 0;
+    padding: 0;
+    max-width: 100vw;
+    height: 100vh;
+    background: url(/assets/banner.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.section-header {
+    font-size: 30px;
+    font-weight:bold;
+    text-align: center;
+    width: 100%;
+}
+.feature-item {
+    width: 30%;
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+.feature-icon {
+  font-size: 56px;
+}
+
+.feature-label {
+    font-size:20px;
+    font-weight:bold
+}
+
+.feature-content {
+    font-size: 15px;
+    margin-top: 10px;
+    padding: 0 10px;
+}
