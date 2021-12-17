@@ -40,3 +40,68 @@
     margin-top: 10px;
     padding: 0 10px;
 }
+
+
+/********************style choose-reason***************/
+section#choose-reason{
+	margin-top: 50px;
+}
+.reason-title {
+	font-size: 30px;
+	font-weight: 800;
+	width: 350px;
+	color: #111;
+  margin-bottom: 30px;
+}
+
+.reason-box{
+	width: 230px;
+	height: 230px;
+	border-radius: 50%;
+	background-image: linear-gradient(to right top, #072e71, #063786, #06409c, #0849b2, #0b52c9);
+  margin: 10px auto;
+}
+.reason-icon-container {
+	height: 40%;
+	width: 100%;
+	position: relative;
+}
+
+.reason-icon{
+	display: inline-block;
+	color: #fff;
+	font-size: 70px;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	top: 30%
+
+}
+
+.reason-detail {
+	text-align: center;
+	color: #fff;
+	padding: 0 25px;
+    margin-top: 10px;
+}
+.reason-detail-title{
+	font-size: 16px;
+	font-weight: bold;
+    margin-top: 10px;
+}
+.reason-detail-text {
+	font-size: 14px;
+}
+
+.video-intro{
+    margin-top: 50px;
+	width: 100%;
+	height: 645px;
+}
+
+@media only screen and (max-width: 720px) {
+	.video-intro{
+		width: 100%;
+		height: 340px;
+	}
+}
